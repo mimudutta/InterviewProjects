@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39" started-at="2021-02-27T16:21:25 ICT" finished-at="2021-02-27T16:21:26 ICT">
+  <suite name="Default suite" duration-ms="38" started-at="2021-02-27T22:16:34 ICT" finished-at="2021-02-27T22:16:34 ICT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39" started-at="2021-02-27T16:21:25 ICT" finished-at="2021-02-27T16:21:26 ICT">
+    <test name="Default test" duration-ms="38" started-at="2021-02-27T22:16:34 ICT" finished-at="2021-02-27T22:16:34 ICT">
       <class name="PracticeProgramsCoreJava.InterviewQuestion">
-        <test-method status="PASS" signature="questionTwo()[pri:0, instance:PracticeProgramsCoreJava.InterviewQuestion@1500955a]" name="questionTwo" duration-ms="7" started-at="2021-02-27T16:21:25 ICT" finished-at="2021-02-27T16:21:26 ICT">
+        <test-method status="PASS" signature="questionTwo()[pri:0, instance:PracticeProgramsCoreJava.InterviewQuestion@1500955a]" name="questionTwo" duration-ms="9" started-at="2021-02-27T22:16:34 ICT" finished-at="2021-02-27T22:16:34 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- questionTwo -->

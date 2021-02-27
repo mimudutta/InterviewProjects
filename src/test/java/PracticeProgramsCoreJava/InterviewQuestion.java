@@ -59,7 +59,7 @@ public class InterviewQuestion {
 				if(newStr.charAt(i)==newStr.charAt(i+1)) {
 					String s2="";
 					newStr.deleteCharAt(i);
-					System.out.println(newStr);
+					System.out.println(newStr);  //**'* ** *8* 2**?
 				}
 					
 				}
