@@ -8,11 +8,12 @@ public class interview8 {
 	
 	//ip: 171.21.34.200 //0-255
 	//   0-255
+	//OP: nothing--not proper ip.
 	
 	public static void main(String args[]) {
 		//Scanner scnScanner=new Scanner(System.in);
 		
-		String str="171.21.34.200";
+		String str="171.21.34.200";       
 		String[] Array=str.split(".");
 		
 		for(int i=0;i<Array.length-1;i++) {
