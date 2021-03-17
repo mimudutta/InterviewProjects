@@ -3,7 +3,7 @@ package PracticeProgramsCoreJava;
 import java.util.Scanner;
 
 
-public class interview8 {
+public class Int8IPValidation {
 	
 	//ip: 171.21.34.200 //0-255
 	//   0-255
@@ -14,9 +14,15 @@ public class interview8 {
 		String address =null;
 		try {
 			address = scnScanner.next();
+			/*
+			 * if(address.contains(address)) { throw new
+			 * MyFormatException("Please Enter number in ipv4 address format only!"); }
+			 */
 		} catch (NumberFormatException e) {
-			System.out.println("Please Enter number in ipv4 address format only!"+ e);
-			//e.printStackTrace();
+			e.printStackTrace();
+		}
+		catch (ArrayIndexOutOfBoundsException e) {
+			e.printStackTrace();
 		}
 		  
 		//System.out.println(ValidationChain("171.21.34.200"));
@@ -79,7 +85,16 @@ public class interview8 {
 
 }
 
+class MyFormatException extends Exception {
+
+    MyFormatException(String message) {
+        super(message);
+    }
+}
+
+
 //10.0.0.40-----valid
+//0.0.0.0----valid
 //171.21.34.256-----invalid
 //171.21.256.255-----invalid
 //171.256.21.255-----invalid

@@ -6,7 +6,7 @@ public class int13 {
 		// TODO Auto-generated method stub
 		//abaaba---aa
 		//zyzyzyz--yzyzy
-		solution("abaaba");
+		System.out.println(solution("abaaba"));
 	}
 	
 	public static int solution(String S) {
@@ -16,8 +16,8 @@ public class int13 {
 		StringBuffer sb=new StringBuffer(S) ;
 		int count=0;
 		for(int i=0;i<sb.length()-1;i++) {
-			if((sb.charAt(i)=='B')) {
-				
+			if((sb.charAt(i)=='b')) {
+				count++;
 			}
 		}
 		return count;

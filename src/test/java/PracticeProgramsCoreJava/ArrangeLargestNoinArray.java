@@ -24,11 +24,9 @@ public class ArrangeLargestNoinArray {
 	         myArray[i] = s.nextInt();
 	      }
 	      List<Integer> listOfNumbers = new ArrayList<>();
-	      for( int j=0;j<myArray.length-1;j++) {
+	      for( int j=0;j<myArray.length;j++) {
 	    	  listOfNumbers.add(myArray[j]);
-	      }
-		
-		 //= Arrays.asList(2,20,24,6,8);  
+	      } 
 	    Collections.sort(listOfNumbers, new MyComparator());
 	    System.out.println("Biggest number is-");
 	    // Biggest number

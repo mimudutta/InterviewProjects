@@ -2,7 +2,7 @@ package PracticeProgramsCoreJava;
 
 import java.util.Arrays;
 
-public class interview10 {
+public class int10NumberNearAvg {
 	
 	//Pgm to find average and then find nearest number to the average from an array
 
@@ -20,14 +20,14 @@ public class interview10 {
 		System.out.println("Average:"+avg);
 		
 		for(int i=ip.length-1;i>0; i--) {
-			if(ip[i]<15) {
+			if(ip[i]<avg) {
 				System.out.println("Lowest no. nearest to the Average is:"+ip[i]);
 				break;
 			}	
 		
 		}
 		for(int i=0;i<ip.length; i++) {
-			if(ip[i]>15) {
+			if(ip[i]>avg) {
 				System.out.println("Higher no. nearest to the Average is:"+ip[i]);
 				break;
 			}	

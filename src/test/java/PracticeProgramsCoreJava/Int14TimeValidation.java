@@ -12,8 +12,8 @@ public class Int14TimeValidation {
 	public static boolean validTime(String time) {
 		
 		String[] val= time.split(":");
-		boolean flag1=true;
-		boolean flag2=true;
+		boolean flag1;
+		boolean flag2;
 		
 	
 		if((Integer.parseInt(val[0])>=0)&&(Integer.parseInt(val[0])<=24)) {

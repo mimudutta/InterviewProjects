@@ -7,7 +7,7 @@ import java.util.List;
 
 import com.opencsv.CSVWriter;
 
-public class testdata001 {
+public class LoadBulkDatainCSVfile {
 
 	public static void main(String[] args) {
 		
