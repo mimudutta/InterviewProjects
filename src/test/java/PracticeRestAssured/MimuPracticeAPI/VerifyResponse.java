@@ -29,8 +29,8 @@ public class VerifyResponse {
 		
 		softAssert.assertEquals(js.getString("userID"), "1117901");
 		softAssert.assertEquals(js.getBoolean("kycDone"), false);
-		softAssert.assertEquals(js.getString("userState"),"CREATED");
-		softAssert.assertEquals(js.getString("name.firstName"),"BromosOT");
+		softAssert.assertEquals(js.getString("userState"), "CREATED");
+		softAssert.assertEquals(js.getString("name.firstName"), "BromosOT");
 		softAssert.assertAll();
 		
 	}

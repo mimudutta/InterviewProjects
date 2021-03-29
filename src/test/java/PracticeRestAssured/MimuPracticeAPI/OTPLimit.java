@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import io.restassured.response.ResponseBody;
 
 import static io.restassured.RestAssured.*;
 //import static org.hamcrest.Matchers.*;
@@ -40,6 +41,13 @@ public class OTPLimit {
 		
 		System.out.println("Response status code: "+resp.getStatusCode());
 		Assert.assertEquals(resp.getStatusCode(), 200);
+		
+		String respBody=resp.getBody().asString();      //storing response body as String
+		ResponseBody respBody1=resp.getBody();		//storing response body as ResponseBody
+		String respBodyString=respBody1.asString();
+		Assert.assertEquals(respBody.contains("abcd"), "abcd");
+		Assert.assertEquals(respBodyString.contains("abcd"), "abcd");
+		
 		
 		System.out.println("Response Server: "+resp.getHeader("Server"));
 		Assert.assertEquals(resp.getHeader("Server"), "proteus");
