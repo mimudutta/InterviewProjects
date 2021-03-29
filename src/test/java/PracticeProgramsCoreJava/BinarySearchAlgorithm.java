@@ -19,10 +19,10 @@ public class BinarySearchAlgorithm {
 			System.out.println(arr[i]);         //After sorting if decending: 99,89,80,31,12,7,5,2,1	  
 		}										//After sorting if accending: 1,2,5,7,12,31,80,89,99
 		
-		System.out.println("index for the given key is:"+BinarySearch(13,9,arr));
+		System.out.println("index for the given key is:"+BinarySearch(10,arr.length,arr));
 		
-		if(BinarySearch(12,9,arr)>=0) {
-			System.out.println("index for the given key is:"+BinarySearch(12,9,arr));
+		if(!(BinarySearch(10,arr.length,arr)==-1)) {
+			System.out.println("index for the given key is:"+BinarySearch(10,9,arr));
 		}
 		else {
 			System.out.println("key doesnot exist in the array:");

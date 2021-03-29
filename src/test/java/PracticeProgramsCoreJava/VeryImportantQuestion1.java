@@ -2,7 +2,7 @@ package PracticeProgramsCoreJava;
 
 import java.util.Scanner;
 
-public class InterviewQuestion4 {
+public class VeryImportantQuestion1 {
 
 	public static void main(String[] args) {
 		

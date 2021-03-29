@@ -1,7 +1,7 @@
 package PracticeProgramsCoreJava;
 
 
-public class InterviewQuestion5 {
+public class VeryImportantQuestion2 {
 
 	public static void main(String[] args) {
 
