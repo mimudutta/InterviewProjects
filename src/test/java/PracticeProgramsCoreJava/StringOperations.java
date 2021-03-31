@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class StringOperations {
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	//Reverse a given string and Pallindrom
 	public void stringReverse() {
 		Scanner scn=new Scanner(System.in);

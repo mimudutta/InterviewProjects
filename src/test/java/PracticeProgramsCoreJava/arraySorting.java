@@ -21,13 +21,14 @@ public class arraySorting {
 		System.out.println(ip[i]);
 		}
 		
-
+		
+		System.out.println("Max Number: "+getMax(ip));
 	}
 
 
 
 //Program to get max number in an array
-	public int getMax(int[] ip) {
+	public static int getMax(int[] ip) {
 		int ans = ip[0];
 		for (int i = 0; i < ip.length; i++) {
 			if (ans < ip[i]) {

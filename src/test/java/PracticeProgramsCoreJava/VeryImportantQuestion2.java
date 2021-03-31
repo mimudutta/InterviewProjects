@@ -8,7 +8,7 @@ public class VeryImportantQuestion2 {
 		 //I/P : aaaabbbccaabbc
 		// O/P : a4b3c2a2b2c1
 		
-		String string="aaaabbbccaabbc";
+		String string="aaaabbbccaabbc";   //aaaabbbccaabbc
 		char[] ch=string.toCharArray();
 		int count=1;
 		
