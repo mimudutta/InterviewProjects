@@ -1,6 +1,5 @@
 package PracticeProgramsCoreJava;
 
-import java.util.Comparator;
 
 public class AddDigitsNum {
 	

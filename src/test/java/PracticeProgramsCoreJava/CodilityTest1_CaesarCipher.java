@@ -2,18 +2,18 @@ package PracticeProgramsCoreJava;
 
 import java.util.Scanner;
 
-public class CaesarCipher {
+public class CodilityTest1_CaesarCipher {
 
 	public static void main(String[] args) {
-		//Scanner input = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		
-		//System.out.println("Write the text to encrypt it: ");		
-		//String text = input.nextLine();
+		System.out.println("Write the text to encrypt it: ");		
+		String text = input.nextLine();
 		
-		//System.out.println("Write the key: ");
-		//int key = input.nextInt();
+		System.out.println("Write the key: ");
+		int key = input.nextInt();
 		
-		//System.out.println(EncryptNew(text, key));
+		System.out.println(EncryptNew(text, key));
 		System.out.println(Encrypt("crazy"));
 	}
 	
@@ -38,31 +38,25 @@ public class CaesarCipher {
 				{
 					char ch = (char)(charr + shift);
 					if(ch > 'Z')
-						encryptedText += (char)(charr - (26 - shift));
-					
+						encryptedText += (char)(charr - (26 - shift));	
 					else
 						encryptedText += ch;
 				}
-				
 				else if (Character.isLowerCase(charr))
 				{
 					char ch = (char)(charr + shift);
 					if(ch > 'z')
 						encryptedText += (char)(charr - (26 - shift));
-					
 					else
 						encryptedText += ch;
-				}
-				
-			}
-			
+				}	
+			}	
 			else 
-				encryptedText += charr;
-			
+				encryptedText += charr;	
 		}
-		
 		return encryptedText;
 	}
+	
 	
 	public static String Encrypt(String text)
 	{

@@ -39,7 +39,8 @@ public class CodilityTest1_ZeroOneCount {
 	
 	
 	public static void main(String[] args) {
-		System.out.println(zerosAndOnesNew("01")); // "111000"=0   "111*000"=7  "01010"=1 "110*111000011100000"=5
+		//System.out.println(zerosAndOnesNew("111*000")); // "111000"=0   "111*000"=7  "01010"=1 "110*111000011100000"=5
+		System.out.println(zerosAndOnes("01010"));
 			
 	}
 	

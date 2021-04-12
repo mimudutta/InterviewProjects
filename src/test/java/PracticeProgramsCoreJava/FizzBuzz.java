@@ -1,6 +1,6 @@
 package PracticeProgramsCoreJava;
 
-public class interview11FizzBuzz {
+public class FizzBuzz {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,6 +1,6 @@
 package PracticeProgramsCoreJava;
 
-public class Int14TimeValidation {
+public class TimeValidation {
 
 	public static void main(String[] args) {
 		

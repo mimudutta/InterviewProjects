@@ -57,7 +57,49 @@ public class VeryImportantQuestion1 {
 		}
 		System.out.println("O/P:"+opStr);
 		
-
+		
+		System.out.println("============RevWordsinSentence:=============================");
+		RevWordsinSentence();
+	}
+	
+public static void RevWordsinSentence() {
+	
+	// This is a discussion
+	// siht si a noissucsid
+		
+		String str="This is a discussion";
+		String[] arr=str.split(" ");
+		String temp1="";
+		String finalStr="";
+		
+		//rev(arr);
+		
+		for(int i=0; i<arr.length; i++) {
+			for(int j=arr[i].length()-1; j>=0; j--) {
+				temp1=temp1+arr[i].charAt(j);
+				//System.out.println(temp1);	
+			}
+		}
+		
+		int idx1=str.indexOf(" ");
+		int idx2=str.indexOf(" ",idx1+1);
+		int idx3=str.indexOf(" ",idx2+1);
+		System.out.println(idx1+" "+idx2+" "+idx3);
+		
+		
+		
+		for(int i=0; i<temp1.length(); i++) {
+			if(i==idx1-1||i==idx2-2||i==idx3-3) {
+				finalStr=finalStr+temp1.charAt(i)+' ';
+			}
+			else {
+				finalStr=finalStr+temp1.charAt(i);
+			}
+		}
+		System.out.println(temp1);
+		System.out.println(finalStr);
+	
+	
 	}
 
 }
