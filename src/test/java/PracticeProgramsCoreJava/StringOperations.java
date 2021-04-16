@@ -9,8 +9,8 @@ public class StringOperations {
 	@Test(enabled=true)
 	//Reverse a given string and Pallindrom
 	public void stringReverse() {
-		Scanner scn=new Scanner(System.in);
-		String str=scn.next();
+		//Scanner scn=new Scanner(System.in);
+		String str="abcd";
 		String strRev="";
 		
 		
@@ -28,11 +28,11 @@ public class StringOperations {
 		
 	}
 	
-	@Test
+	@Test(enabled=true)
 	//program to avoid repetation is avoided in a string
 	public void avoidDuplicateChar() {
-		Scanner scn=new Scanner(System.in); //developer
-		String str=scn.next();
+		//Scanner scn=new Scanner(System.in); //developer
+		String str="abdbbds";
 		String newstr="";
 		
 		for(int i=0;i<str.length();i++) {
@@ -40,7 +40,7 @@ public class StringOperations {
 				newstr=newstr+str.charAt(i);
 			}
 		}
-		System.out.println(newstr);
+		System.out.println("Duplicatesremoved:"+newstr);
 	}
 	
 

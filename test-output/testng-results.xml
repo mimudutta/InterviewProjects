@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35" started-at="2021-03-30T21:11:56 ICT" finished-at="2021-03-30T21:11:56 ICT">
+  <suite name="Default suite" duration-ms="32" started-at="2021-04-16T21:34:04 ICT" finished-at="2021-04-16T21:34:04 ICT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35" started-at="2021-03-30T21:11:56 ICT" finished-at="2021-03-30T21:11:56 ICT">
-      <class name="PracticeProgramsCoreJava.MapPrograms">
-        <test-method status="PASS" signature="findDuplicateString()[pri:0, instance:PracticeProgramsCoreJava.MapPrograms@1500955a]" name="findDuplicateString" duration-ms="8" started-at="2021-03-30T21:11:56 ICT" finished-at="2021-03-30T21:11:56 ICT">
+    <test name="Default test" duration-ms="32" started-at="2021-04-16T21:34:04 ICT" finished-at="2021-04-16T21:34:04 ICT">
+      <class name="PracticeProgramsCoreJava.StringOperations">
+        <test-method status="PASS" signature="avoidDuplicateChar()[pri:0, instance:PracticeProgramsCoreJava.StringOperations@5bfbf16f]" name="avoidDuplicateChar" duration-ms="6" started-at="2021-04-16T21:34:04 ICT" finished-at="2021-04-16T21:34:04 ICT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findDuplicateString -->
-      </class> <!-- PracticeProgramsCoreJava.MapPrograms -->
+        </test-method> <!-- avoidDuplicateChar -->
+        <test-method status="PASS" signature="stringReverse()[pri:0, instance:PracticeProgramsCoreJava.StringOperations@5bfbf16f]" name="stringReverse" duration-ms="1" started-at="2021-04-16T21:34:04 ICT" finished-at="2021-04-16T21:34:04 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stringReverse -->
+      </class> <!-- PracticeProgramsCoreJava.StringOperations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
