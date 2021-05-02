@@ -1,9 +1,7 @@
 package pojoClassConcept;
 
 
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import com.fasterxml.jackson.databind.*;
 
 import KPMG.PojoClassConcept.Serialization.CreateOrders;
 import KPMG.PojoClassConcept.Serialization.CreateOrdersResp;

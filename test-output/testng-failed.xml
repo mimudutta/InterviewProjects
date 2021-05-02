@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pojoClassConcept.TestUsingSpecBuilder">
+      <class name="PracticeProgramsCoreJava.Panasonic">
         <methods>
-          <include name="createOrderKPMG"/>
+          <include name="initialization"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- pojoClassConcept.TestUsingSpecBuilder -->
+      </class> <!-- PracticeProgramsCoreJava.Panasonic -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

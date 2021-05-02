@@ -32,7 +32,7 @@ public class ArmstrongNumber {
 			else {
 				while(ip!=0) {
 					int a=ip %10;
-					 //System.out.println(a);
+					 System.out.println(a);
 					 temp=temp+(int) Math.pow(a, 3);
 					 //System.out.println(temp);
 					 ip=ip/10;
